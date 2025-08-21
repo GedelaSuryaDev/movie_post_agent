@@ -1,0 +1,4 @@
+# Core dependencies for movie_post_agent
+google-adk>=1.8.0
+requests>=2.31.0
+Pillow>=10.0.0

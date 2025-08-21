@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.
 from google.adk.agents import LlmAgent
 from google.adk.tools.agent_tool import AgentTool
 from google.adk.tools import google_search # import google search tool
-from tools.social_poster import download_movie_posters, create_final_images
+from movie_poster_agent.social_agent_tools import download_movie_posters, create_final_images
 
 
 movie_search = LlmAgent(
